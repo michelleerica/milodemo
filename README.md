@@ -1,24 +1,6 @@
-# README
+# WDI-25 - cloudinary / bootstrap demo / heroku create app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Quick code-along to show students how to:
+- use cloudinary for image uploads (including hiding keys)
+- use bootstrap as a CSS framework
+- deploy app with rails backend (postgresql) to heroku

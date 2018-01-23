@@ -15,15 +15,18 @@
     <div class='container'>
 
       <nav class="navbar navbar-default navbar-fixed-top">
-        <a href="/users">HOME</a>
-        <a href="/users">Index</a>
-        <a href="/users/new">Create new</a>
+         <ul class="nav navbar-nav">
+          <li><a href="/users">HOME</a></li>
+          <li><a href="/users">Index</a></li>
+          <li><a href="/users/new">Create new</a></li>
 
-        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+        </ul>
 
       </nav>
 
       <h1>This is a HEADING</h1>
+      
 
       <%= yield %>
     </div>
