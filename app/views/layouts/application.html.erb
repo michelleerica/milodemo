@@ -6,9 +6,26 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+
+    <%= cloudinary_js_config%>
+
   </head>
 
   <body>
-    <%= yield %>
+    <div class='container'>
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <a href="/users">HOME</a>
+        <a href="/users">Index</a>
+        <a href="/users/new">Create new</a>
+
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+      </nav>
+
+      <h1>This is a HEADING</h1>
+
+      <%= yield %>
+    </div>
   </body>
 </html>
